@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsk1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
         <link rel="stylesheet" href="estilos.css"/>
-        <title>Inicio Sesion</title>
+        <title>Inicio Sesión</title>
     </head>
     <body>
         <main>
@@ -30,7 +30,7 @@
                 <!--Formulario de Login y registro-->
                 <div class="contenedor__login-register">
                     <!--Login-->
-                    <form action="Controlador?accion=Login" method="POST" class="formulario__login">
+                    <form action="/user/login" method="POST" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
                         <input type="text" name="email" placeholder="Correo Electronico" required="required" />
                         <input type="password" name="password" placeholder="Contraseña" required="required" />
@@ -38,7 +38,7 @@
                     </form>
 
                     <!--Register-->
-                    <form action="Controlador?accion=RegistrarCliente" method="POST" class="formulario__register">
+                    <form action="/user/register" method="POST" class="formulario__register">
                         <h2>Regístrarse</h2>
                         <input type="text" name="nombres" placeholder="Nombre" required="required" />
                         <input type="text" name="email" placeholder="Correo Electronico" required="required" />

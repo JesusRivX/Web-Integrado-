@@ -34,15 +34,16 @@ public class ProductController {
     @Autowired
     private ProductsRepository repo;
     
-    @GetMapping("/index")
-    public String showProductIndex(Model model) {
+    @GetMapping({"", "/"})
+    public String showProductList(Model model) {
         List<Productos> productos = repo.findAll(Sort.by(Sort.Direction.DESC, "id"));
         model.addAttribute("productos", productos);
-        return "productos/index"; 
+        return "productos/index";
+
     }
 
     @GetMapping("/producto")
-    public String showProductList(Model model) {
+    public String showProductProduc(Model model) {
         List<Productos> productos = repo.findAll(Sort.by(Sort.Direction.DESC, "id"));
         model.addAttribute("productos", productos);
         return "productos/producto"; 
