@@ -4,23 +4,135 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
 -->
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="shortcut icon" href="images/Cap.png" type="image/x-icon">
+        <title>Tienda Mass</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link href="https://fonts.cdnfonts.com/css/cocogoose-classic-trial" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body style="background-color: #082fb6;">
+        <header id="header">
+            <nav id="nav">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <a href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="6rem" height="2rem" viewBox="0 0 166 41" fill="none">
+                        <path
+                            d="M35.7082 0.967773C32.3499 7.90132 29.0453 14.8624 25.7796 21.8419C25.1611 14.8992 24.387 7.96888 23.5982 1.04452C20.0187 1.04452 16.4393 1.04747 12.8598 1.04139C8.56623 13.8055 4.28162 26.5725 0 39.3397C3.48386 39.3459 6.96793 39.3398 10.4548 39.3428C12.2833 32.9577 14.2433 26.6093 16.0001 20.1997C16.6903 26.5726 17.2133 32.9669 17.8677 39.3428C20.9332 39.2848 23.9959 39.2419 27.0585 39.2634C29.9358 32.8813 32.7652 26.4776 35.6754 20.1109C35.2989 26.4898 35.009 32.8783 34.7401 39.2665C38.2748 39.3154 41.8034 39.2052 45.338 39.196C45.7175 26.4565 46.0072 13.7105 46.3328 0.970916C42.7892 0.964745 39.2489 0.970824 35.7082 0.967773ZM163.156 4.77323C163.028 4.77037 162.9 4.77392 162.773 4.78268C158.468 4.88379 154.273 6.13686 150.305 7.78522C140.953 11.7866 132.844 18.3032 125.64 25.5186C124.735 23.3003 123.803 21.0917 122.948 18.852C122.563 18.0891 122.153 17.0563 121.227 16.8969C120.217 16.9766 119.7 18.1073 119.766 19.0418C120.002 23.4568 120.331 27.8686 120.746 32.2714C120.958 34.2874 121.122 36.3586 121.908 38.2459C122.225 38.9782 122.643 39.7718 123.402 40.1027C124.242 40.4152 125.21 39.8976 125.598 39.104C128.616 33.9813 131.762 28.8432 135.993 24.664C138.837 21.9096 142.094 19.6543 145.33 17.4238C150.813 13.7503 156.872 10.9563 163.251 9.39374C164.049 9.20378 164.883 8.92475 165.429 8.25376C166.021 7.59197 166.266 6.45238 165.606 5.75075C164.955 5.10196 164.052 4.79304 163.156 4.77323ZM107.157 9.69533C105.726 9.69997 104.297 9.8245 102.888 10.1073C100.566 10.5792 98.2922 11.63 96.6608 13.4285C94.4976 15.8398 93.8014 19.4645 94.7635 22.5712C95.3012 24.3789 96.5529 25.8433 97.9243 27.0566C98.6952 27.7858 99.6217 28.3988 100.142 29.3608C100.437 29.8939 100.255 30.6723 99.6217 30.8316C97.5122 31.619 95.2625 30.7827 93.2487 30.0655C92.7049 33.0497 92.0743 36.0188 91.5006 38.9999C94.611 39.6893 97.8527 39.8607 100.996 39.2939C103.631 38.7853 106.249 37.6334 108.083 35.5714C110.486 33.0621 111.316 29.0359 109.903 25.8004C108.932 23.4657 106.918 21.9034 105.212 20.1692C104.707 19.6882 104.101 18.6956 104.883 18.1778C106.724 17.2648 108.845 17.9601 110.704 18.4902C111.364 15.7266 112.006 12.957 112.652 10.1904C110.842 9.88187 108.998 9.68937 107.157 9.69533ZM88.6938 9.76355C87.6003 9.76711 86.508 9.83859 85.4234 9.98796C82.824 10.3587 80.1888 11.3393 78.3243 13.3002C75.2887 16.4253 74.9089 21.9586 77.7085 25.3687C78.7841 26.8301 80.4095 27.7431 81.4822 29.2015C81.9184 29.7346 81.8347 30.6632 81.1176 30.8899C79.0171 31.6804 76.7497 30.8801 74.7538 30.1175C74.1532 33.1017 73.5735 36.0921 72.9759 39.0794C77.9716 40.0751 83.6573 40.1487 87.9987 37.048C90.5503 35.2281 92.2594 32.0817 92.0503 28.8555C92.0382 26.435 90.7328 24.2565 89.1104 22.5928C88.1513 21.5357 86.9262 20.7299 86.1434 19.5135C85.7132 18.9344 86.1731 18.1653 86.7977 18.0243C88.5636 17.5188 90.431 17.9878 92.1251 18.5638C92.9109 15.8308 93.4426 13.0241 94.1358 10.2635C92.3412 9.9399 90.5162 9.7576 88.6938 9.76355ZM65.3634 9.85331C64.8672 9.85062 64.3709 9.85469 63.8749 9.86543C60.0205 9.98798 56.1122 11.2625 53.1781 13.8944C49.3536 17.2126 47.3726 22.2925 46.8677 27.3111C46.5838 30.3964 46.5304 33.7267 48.0004 36.5301C49.079 38.6534 51.4212 39.8516 53.7129 39.8118C56.7157 39.9804 59.5784 38.4545 61.6191 36.2761C61.3592 37.2412 61.1291 38.2154 60.893 39.1898C64.1707 39.1683 67.4481 39.0641 70.7258 39.1162C72.2078 29.6917 73.9439 20.3133 75.7127 10.9439C72.3114 10.2227 68.8371 9.87219 65.3634 9.85331ZM63.5011 18.3268C63.8266 18.3298 64.1533 18.3655 64.4754 18.435C63.8031 22.0289 62.2734 25.4421 60.1669 28.3865C59.408 29.3546 58.5683 30.4824 57.3014 30.7122C56.7756 30.2863 56.8652 29.4709 56.8025 28.8582C56.8652 25.7146 57.681 22.4121 59.7546 20.0162C60.699 18.9134 62.0908 18.3139 63.5011 18.3268Z"
+                            fill="#2D3F87" />
+                        </svg></a>
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul id="nav_ul">
+                    <li><a href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="6rem" height="2rem" viewBox="0 0 166 41" fill="none">
+                            <path
+                                d="M35.7082 0.967773C32.3499 7.90132 29.0453 14.8624 25.7796 21.8419C25.1611 14.8992 24.387 7.96888 23.5982 1.04452C20.0187 1.04452 16.4393 1.04747 12.8598 1.04139C8.56623 13.8055 4.28162 26.5725 0 39.3397C3.48386 39.3459 6.96793 39.3398 10.4548 39.3428C12.2833 32.9577 14.2433 26.6093 16.0001 20.1997C16.6903 26.5726 17.2133 32.9669 17.8677 39.3428C20.9332 39.2848 23.9959 39.2419 27.0585 39.2634C29.9358 32.8813 32.7652 26.4776 35.6754 20.1109C35.2989 26.4898 35.009 32.8783 34.7401 39.2665C38.2748 39.3154 41.8034 39.2052 45.338 39.196C45.7175 26.4565 46.0072 13.7105 46.3328 0.970916C42.7892 0.964745 39.2489 0.970824 35.7082 0.967773ZM163.156 4.77323C163.028 4.77037 162.9 4.77392 162.773 4.78268C158.468 4.88379 154.273 6.13686 150.305 7.78522C140.953 11.7866 132.844 18.3032 125.64 25.5186C124.735 23.3003 123.803 21.0917 122.948 18.852C122.563 18.0891 122.153 17.0563 121.227 16.8969C120.217 16.9766 119.7 18.1073 119.766 19.0418C120.002 23.4568 120.331 27.8686 120.746 32.2714C120.958 34.2874 121.122 36.3586 121.908 38.2459C122.225 38.9782 122.643 39.7718 123.402 40.1027C124.242 40.4152 125.21 39.8976 125.598 39.104C128.616 33.9813 131.762 28.8432 135.993 24.664C138.837 21.9096 142.094 19.6543 145.33 17.4238C150.813 13.7503 156.872 10.9563 163.251 9.39374C164.049 9.20378 164.883 8.92475 165.429 8.25376C166.021 7.59197 166.266 6.45238 165.606 5.75075C164.955 5.10196 164.052 4.79304 163.156 4.77323ZM107.157 9.69533C105.726 9.69997 104.297 9.8245 102.888 10.1073C100.566 10.5792 98.2922 11.63 96.6608 13.4285C94.4976 15.8398 93.8014 19.4645 94.7635 22.5712C95.3012 24.3789 96.5529 25.8433 97.9243 27.0566C98.6952 27.7858 99.6217 28.3988 100.142 29.3608C100.437 29.8939 100.255 30.6723 99.6217 30.8316C97.5122 31.619 95.2625 30.7827 93.2487 30.0655C92.7049 33.0497 92.0743 36.0188 91.5006 38.9999C94.611 39.6893 97.8527 39.8607 100.996 39.2939C103.631 38.7853 106.249 37.6334 108.083 35.5714C110.486 33.0621 111.316 29.0359 109.903 25.8004C108.932 23.4657 106.918 21.9034 105.212 20.1692C104.707 19.6882 104.101 18.6956 104.883 18.1778C106.724 17.2648 108.845 17.9601 110.704 18.4902C111.364 15.7266 112.006 12.957 112.652 10.1904C110.842 9.88187 108.998 9.68937 107.157 9.69533ZM88.6938 9.76355C87.6003 9.76711 86.508 9.83859 85.4234 9.98796C82.824 10.3587 80.1888 11.3393 78.3243 13.3002C75.2887 16.4253 74.9089 21.9586 77.7085 25.3687C78.7841 26.8301 80.4095 27.7431 81.4822 29.2015C81.9184 29.7346 81.8347 30.6632 81.1176 30.8899C79.0171 31.6804 76.7497 30.8801 74.7538 30.1175C74.1532 33.1017 73.5735 36.0921 72.9759 39.0794C77.9716 40.0751 83.6573 40.1487 87.9987 37.048C90.5503 35.2281 92.2594 32.0817 92.0503 28.8555C92.0382 26.435 90.7328 24.2565 89.1104 22.5928C88.1513 21.5357 86.9262 20.7299 86.1434 19.5135C85.7132 18.9344 86.1731 18.1653 86.7977 18.0243C88.5636 17.5188 90.431 17.9878 92.1251 18.5638C92.9109 15.8308 93.4426 13.0241 94.1358 10.2635C92.3412 9.9399 90.5162 9.7576 88.6938 9.76355ZM65.3634 9.85331C64.8672 9.85062 64.3709 9.85469 63.8749 9.86543C60.0205 9.98798 56.1122 11.2625 53.1781 13.8944C49.3536 17.2126 47.3726 22.2925 46.8677 27.3111C46.5838 30.3964 46.5304 33.7267 48.0004 36.5301C49.079 38.6534 51.4212 39.8516 53.7129 39.8118C56.7157 39.9804 59.5784 38.4545 61.6191 36.2761C61.3592 37.2412 61.1291 38.2154 60.893 39.1898C64.1707 39.1683 67.4481 39.0641 70.7258 39.1162C72.2078 29.6917 73.9439 20.3133 75.7127 10.9439C72.3114 10.2227 68.8371 9.87219 65.3634 9.85331ZM63.5011 18.3268C63.8266 18.3298 64.1533 18.3655 64.4754 18.435C63.8031 22.0289 62.2734 25.4421 60.1669 28.3865C59.408 29.3546 58.5683 30.4824 57.3014 30.7122C56.7756 30.2863 56.8652 29.4709 56.8025 28.8582C56.8652 25.7146 57.681 22.4121 59.7546 20.0162C60.699 18.9134 62.0908 18.3139 63.5011 18.3268Z"
+                                fill="#2D3F87" />
+                            </svg></a></li>
+                    <li><a class="snav" href="Conoceme.jsp" style="text-decoration: none;">Conoceme</a></li>
+                    <li class="movil"><a class="snav" href="#">Precios Mass</a></li>
+                    <li class="movil"><a class="snav" href="#">Ubicame</a></li>
+                    <li class="tablet movil"><a class="snav" href="/productos/producto">Productos</a></li>
+                    <li class="tablet movil"><a class="snav" href="/productos/index">Carrito</a></li>
+                    <li class="tablet movil"><a class="snav" id="plus" href="inicioSesion.xhtml">Inicio Sesion</a></li>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-      <div class="container">
-          <h1 class="text-center my-4">Bienvenido al sitio Admin de MASS</h1>
-          
-          <a class="btn btn-primary" href="/productos">Productos</a>
-      </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    
-  </body>
+                </ul>
+            </nav>
+
+            <div id="hi">
+            </div>
+        </header>
+
+        <section id="section">
+            <div class="container">
+                <h2 style="color: #FFFFFF; font-weight: 900; font-size: 44px;">¡LOS MEJORES PRECIOS DEL BARRIO!</h2>
+                <p style="color: #FFFFFF; margin-bottom: 40px; font-size: 20px; padding-right: 20px;">Caser@, a mi nadie me gana, yo tengo siempre los <strong style="color: #FFD100; font-weight: 400;">mejores precios</strong> , y además, estoy <strong style="color: #FFD100; font-weight: 400;" >cerca a tu hogar</strong></p>
+                <p style="color: #FFFFFF; margin-bottom: 40px;">¡No te pierdas los mejores precios del barrio aquí!</p>
+
+                <a href="" style="background-color: #FFD100; color: #082EB7; text-decoration: none; border-radius: 20px; padding: 10px 15px; font-weight: 900; font-size: 20px">QUIERO VER</a>
+            </div>
+            <img src="mano-catalogos.jpg" alt="alt" class="img1"/>
+        </section>
+
+        <section id="section2">
+            <img src="Foto-Familia-Fachada.png" alt="alt" class="img2" style="border-bottom-left-radius: 50px;"/>
+            <div class="container1">
+                <div class="cont-details">
+                    <div class="details">
+                        <img src="tiendas.jpg" alt="alt"/>
+                        <h2>970</h2>
+                        <p>tiendas</p>
+                    </div>
+                    <div class="details">
+                        <img src="productos.jpg" alt="alt"/>
+                        <h2>750</h2>
+                        <p>prductos</p>
+                    </div>
+                    <div class="details">
+                        <img src="distritos.jpg" alt="alt"/>
+                        <h2>137</h2>
+                        <p>distritos</p>
+                    </div>
+                </div>
+                <a class="btn-cont1" href="" style="background-color: #FFD100; color: #082EB7; text-decoration: none; border-radius: 20px; padding: 10px 15px; font-weight: 900; width: 108px; margin: 0 auto;">UBÍCAME</a>
+            </div>
+        </section>
+
+        <section id="section3">
+            <div class="container2">
+                <h2 style="color: #082EB7; font-weight: 900; font-size: 44px;">SÉ PARTE DE</h2>
+                <div class="azul">
+                    <p><img decoding="async" class="azul-img" src="https://mass-nuevo.iz.pe/wp-content/uploads/2023/06/fuerza.webp" alt="" width="300" height="144" loading="lazy"></p>
+                    <p><strong>¡Tú pones el talento y juntos desarrollamos tu potencial!</strong> Si tienes 18 años en adelante, te apasiona el trabajo en equipo y tienes muchas ganas de crecer profesionalmente <strong>¡Únete a la fuerza amarilla!</strong></p>
+                    <p>Importante: Nuestras convocatorias son gratuitas y están dirigidas a tod@s.</p>
+                </div> 
+                <a style="background-color: #082EB7; color: #FFD100; text-decoration: none; border-radius: 20px; padding: 12px 15px; font-weight: 900;" href="" class="">INSCRÍBETE AQUÍ</a>
+            </div>
+            <img class="img3" src="https://www.tiendasmass.com.pe/wp-content/uploads/2023/06/trabajo.webp" alt="alt">
+        </section>
+
+        <div id="section4">
+            <div class="conteiner3">
+                <h4 class="sect4-title">MÉTODOS DE PAGO</h4>
+                <div>
+                    <picture>
+                        <source srcset="https://www.tiendasmass.com.pe/wp-content/uploads/2024/01/logos-footer-jpg.webp" media="(min-width: 768px)">
+                        <img src="https://www.tiendasmass.com.pe/wp-content/uploads/2024/01/logos-footer-mob-jpg.webp" alt="MDN" class="img-fluid ls-is-cached lazyloaded" loading="lazy">
+                    </picture>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content2">
+                <h5 class="footer-title">SERVICIO DE CLIENTE</h5>
+                <p class="parrafo">Horario de atención:</p>
+                <p class="parrafo">De lunes a domingo de 7 AM a 10 PM</p>
+                <a href="mailto:servicioalcliente@tiendasmass.pe" style="text-decoration: none;">
+                    <p class="parrafo">servicioalcliente@tiendasmass.pe</p>
+                </a>
+                <p class="parrafo">Políticas de cambios y devoluciones</p>
+                <p class="parrafo">Términos y condiciones</p>
+                <p class="parrafo">Comprobante electrónico</p>
+            </div>
+
+            <div class="footer-content3">
+                <h5 class="footer-title">SÍGUEME EN</h5>
+                <a href="https://www.facebook.com/TiendasMassPeru" target="_blank"><img src="https://www.tiendasmass.com.pe/wp-content/themes/mass/img/facebook-color.webp" alt="" width="40" height="40" class=" ls-is-cached lazyloaded" loading="lazy"></a>
+                <a href="https://www.instagram.com/tiendasmassperu/" target="_blank"><img src="https://www.tiendasmass.com.pe/wp-content/themes/mass/img/instagram-color.webp" alt="" width="40" height="40" class=" ls-is-cached lazyloaded" loading="lazy"></a>
+                <a href="https://www.tiktok.com/@tiendasmassperu" target="_blank"><img src="https://www.tiendasmass.com.pe/wp-content/themes/mass/img/tiktok-color.webp" alt="" width="40" height="40" class=" ls-is-cached lazyloaded" loading="lazy"></a>
+                <a href="https://www.youtube.com/@TiendasMass/" target="_blank"><img src="https://www.tiendasmass.com.pe/wp-content/themes/mass/img/youtube-color.webp" alt="" width="40" height="40" class=" ls-is-cached lazyloaded" loading="lazy"></a>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </body>
 </html>
